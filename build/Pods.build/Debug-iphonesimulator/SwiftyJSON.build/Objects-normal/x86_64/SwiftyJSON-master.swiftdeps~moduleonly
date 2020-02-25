@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "418c8add0b9489a1007bd662d0a16923"
+build_time: [1582539656, 396972000]
+inputs:
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/Pods/SwiftyJSON/Source/SwiftyJSON/SwiftyJSON.swift": [1582536924, 223730849]

@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "7a3a893ab66e2e0dcbe6751904dff5a6"
+build_time: [1582605090, 493989000]
+inputs:
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/Pods/AlamofireImage/Source/AFIError.swift": [1582530110, 485471854]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/Pods/AlamofireImage/Source/Image.swift": [1582530110, 486212032]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/Pods/AlamofireImage/Source/ImageCache.swift": [1582530110, 482208907]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/Pods/AlamofireImage/Source/ImageDownloader.swift": [1582530110, 515845933]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/Pods/AlamofireImage/Source/ImageFilter.swift": [1582530110, 546965342]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/Pods/AlamofireImage/Source/Request+AlamofireImage.swift": [1582530110, 520383219]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift": [1582530110, 487931242]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/Pods/AlamofireImage/Source/UIImage+AlamofireImage.swift": [1582530110, 483065012]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/Pods/AlamofireImage/Source/UIImageView+AlamofireImage.swift": [1582530110, 519138981]

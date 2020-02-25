@@ -1,0 +1,857 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C331F712403AE8A00AB0837 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C331F702403AE8A00AB0837 /* AppDelegate.swift */; };
+		0C331F732403AE8A00AB0837 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C331F722403AE8A00AB0837 /* SceneDelegate.swift */; };
+		0C331F752403AE8A00AB0837 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C331F742403AE8A00AB0837 /* ViewController.swift */; };
+		0C331F782403AE8A00AB0837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C331F762403AE8A00AB0837 /* Main.storyboard */; };
+		0C331F7A2403AE8D00AB0837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C331F792403AE8D00AB0837 /* Assets.xcassets */; };
+		0C331F7D2403AE8D00AB0837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C331F7B2403AE8D00AB0837 /* LaunchScreen.storyboard */; };
+		0C331F882403AE8D00AB0837 /* ViberDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C331F872403AE8D00AB0837 /* ViberDemoTests.swift */; };
+		0C331F932403AE8E00AB0837 /* ViberDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C331F922403AE8E00AB0837 /* ViberDemoUITests.swift */; };
+		0C331FA22403AF9B00AB0837 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C331FA12403AF9B00AB0837 /* AppConstants.swift */; };
+		0C331FA52403AFFB00AB0837 /* NoticeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C331FA42403AFFB00AB0837 /* NoticeModel.swift */; };
+		0C331FA82403B1F800AB0837 /* NoticeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C331FA72403B1F800AB0837 /* NoticeProtocol.swift */; };
+		0C331FAB2403B29200AB0837 /* NoticePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C331FAA2403B29200AB0837 /* NoticePresenter.swift */; };
+		0C331FAE2403B3BF00AB0837 /* NoticeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C331FAD2403B3BF00AB0837 /* NoticeInteractor.swift */; };
+		0C331FB02403B83700AB0837 /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C331FAF2403B83700AB0837 /* NoticeViewController.swift */; };
+		0C331FB52403BB4200AB0837 /* NoticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C331FB32403BB4200AB0837 /* NoticeCell.swift */; };
+		0C331FB62403BB4200AB0837 /* NoticeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C331FB42403BB4200AB0837 /* NoticeCell.xib */; };
+		0C331FB92403BD2F00AB0837 /* NoticeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C331FB82403BD2F00AB0837 /* NoticeRouter.swift */; };
+		0C331FBB2403C2AD00AB0837 /* MovieRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C331FBA2403C2AD00AB0837 /* MovieRouter.swift */; };
+		0C331FBD2404BEAF00AB0837 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C331FBC2404BEAF00AB0837 /* TableViewCell.swift */; };
+		0CB9C6F8FF3B9CE4E250CBB3 /* Pods_ViberDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59F54E9F5848D9C0D20C59D /* Pods_ViberDemoTests.framework */; };
+		6FDC1CE4E8497652858E77C6 /* Pods_ViberDemo_ViberDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0F99D3AACB62DE07E301BC /* Pods_ViberDemo_ViberDemoUITests.framework */; };
+		750E7646ED350D3D2F6C9EC9 /* Pods_ViberDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7045F0649A441E4CE3A128D1 /* Pods_ViberDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C331F842403AE8D00AB0837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C331F652403AE8A00AB0837 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C331F6C2403AE8A00AB0837;
+			remoteInfo = ViberDemo;
+		};
+		0C331F8F2403AE8E00AB0837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C331F652403AE8A00AB0837 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C331F6C2403AE8A00AB0837;
+			remoteInfo = ViberDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04B850DC3427290626D4AFBB /* Pods-ViberDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViberDemo.release.xcconfig"; path = "Target Support Files/Pods-ViberDemo/Pods-ViberDemo.release.xcconfig"; sourceTree = "<group>"; };
+		0C331F6D2403AE8A00AB0837 /* ViberDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViberDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C331F702403AE8A00AB0837 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0C331F722403AE8A00AB0837 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0C331F742403AE8A00AB0837 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0C331F772403AE8A00AB0837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C331F792403AE8D00AB0837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C331F7C2403AE8D00AB0837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C331F7E2403AE8D00AB0837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C331F832403AE8D00AB0837 /* ViberDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViberDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C331F872403AE8D00AB0837 /* ViberDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViberDemoTests.swift; sourceTree = "<group>"; };
+		0C331F892403AE8D00AB0837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C331F8E2403AE8E00AB0837 /* ViberDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViberDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C331F922403AE8E00AB0837 /* ViberDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViberDemoUITests.swift; sourceTree = "<group>"; };
+		0C331F942403AE8E00AB0837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C331FA12403AF9B00AB0837 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		0C331FA42403AFFB00AB0837 /* NoticeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeModel.swift; sourceTree = "<group>"; };
+		0C331FA72403B1F800AB0837 /* NoticeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeProtocol.swift; sourceTree = "<group>"; };
+		0C331FAA2403B29200AB0837 /* NoticePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticePresenter.swift; sourceTree = "<group>"; };
+		0C331FAD2403B3BF00AB0837 /* NoticeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeInteractor.swift; sourceTree = "<group>"; };
+		0C331FAF2403B83700AB0837 /* NoticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeViewController.swift; sourceTree = "<group>"; };
+		0C331FB32403BB4200AB0837 /* NoticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeCell.swift; sourceTree = "<group>"; };
+		0C331FB42403BB4200AB0837 /* NoticeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoticeCell.xib; sourceTree = "<group>"; };
+		0C331FB82403BD2F00AB0837 /* NoticeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeRouter.swift; sourceTree = "<group>"; };
+		0C331FBA2403C2AD00AB0837 /* MovieRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRouter.swift; sourceTree = "<group>"; };
+		0C331FBC2404BEAF00AB0837 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		2C14BA8D102D84D9C47B2B83 /* Pods-ViberDemo-ViberDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViberDemo-ViberDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-ViberDemo-ViberDemoUITests/Pods-ViberDemo-ViberDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6E33188EF3F855CC4D403F9F /* Pods-ViberDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViberDemo.debug.xcconfig"; path = "Target Support Files/Pods-ViberDemo/Pods-ViberDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		70283FB030C69F507270EEFF /* Pods-ViberDemo-ViberDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViberDemo-ViberDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-ViberDemo-ViberDemoUITests/Pods-ViberDemo-ViberDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7045F0649A441E4CE3A128D1 /* Pods_ViberDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViberDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A59F54E9F5848D9C0D20C59D /* Pods_ViberDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViberDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0F99D3AACB62DE07E301BC /* Pods_ViberDemo_ViberDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViberDemo_ViberDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B3DCFF58398A7462D310CD /* Pods-ViberDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViberDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-ViberDemoTests/Pods-ViberDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB02EE125907DD9ADA1DB7B8 /* Pods-ViberDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViberDemoTests.release.xcconfig"; path = "Target Support Files/Pods-ViberDemoTests/Pods-ViberDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C331F6A2403AE8A00AB0837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750E7646ED350D3D2F6C9EC9 /* Pods_ViberDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C331F802403AE8D00AB0837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CB9C6F8FF3B9CE4E250CBB3 /* Pods_ViberDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C331F8B2403AE8E00AB0837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FDC1CE4E8497652858E77C6 /* Pods_ViberDemo_ViberDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C331F642403AE8A00AB0837 = {
+			isa = PBXGroup;
+			children = (
+				0C331F6F2403AE8A00AB0837 /* ViberDemo */,
+				0C331F862403AE8D00AB0837 /* ViberDemoTests */,
+				0C331F912403AE8E00AB0837 /* ViberDemoUITests */,
+				0C331F6E2403AE8A00AB0837 /* Products */,
+				9817D0A4DE1A336C3279AEF6 /* Pods */,
+				7F7DF0BAABCA052295C381A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0C331F6E2403AE8A00AB0837 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C331F6D2403AE8A00AB0837 /* ViberDemo.app */,
+				0C331F832403AE8D00AB0837 /* ViberDemoTests.xctest */,
+				0C331F8E2403AE8E00AB0837 /* ViberDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C331F6F2403AE8A00AB0837 /* ViberDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0C331FB72403BD1100AB0837 /* Router */,
+				0C331FB22403BB1F00AB0837 /* Cell */,
+				0C331FB12403B83E00AB0837 /* Views */,
+				0C331FAC2403B3A800AB0837 /* Interactor */,
+				0C331FA92403B26300AB0837 /* Presenter */,
+				0C331FA62403B1E600AB0837 /* Protocols */,
+				0C331FA32403AFED00AB0837 /* Models */,
+				0C331FA02403AF8800AB0837 /* Constant */,
+				0C331F702403AE8A00AB0837 /* AppDelegate.swift */,
+				0C331F722403AE8A00AB0837 /* SceneDelegate.swift */,
+				0C331F742403AE8A00AB0837 /* ViewController.swift */,
+				0C331F762403AE8A00AB0837 /* Main.storyboard */,
+				0C331F792403AE8D00AB0837 /* Assets.xcassets */,
+				0C331F7B2403AE8D00AB0837 /* LaunchScreen.storyboard */,
+				0C331F7E2403AE8D00AB0837 /* Info.plist */,
+			);
+			path = ViberDemo;
+			sourceTree = "<group>";
+		};
+		0C331F862403AE8D00AB0837 /* ViberDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C331F872403AE8D00AB0837 /* ViberDemoTests.swift */,
+				0C331F892403AE8D00AB0837 /* Info.plist */,
+			);
+			path = ViberDemoTests;
+			sourceTree = "<group>";
+		};
+		0C331F912403AE8E00AB0837 /* ViberDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0C331F922403AE8E00AB0837 /* ViberDemoUITests.swift */,
+				0C331F942403AE8E00AB0837 /* Info.plist */,
+			);
+			path = ViberDemoUITests;
+			sourceTree = "<group>";
+		};
+		0C331FA02403AF8800AB0837 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				0C331FA12403AF9B00AB0837 /* AppConstants.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		0C331FA32403AFED00AB0837 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0C331FA42403AFFB00AB0837 /* NoticeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0C331FA62403B1E600AB0837 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				0C331FA72403B1F800AB0837 /* NoticeProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		0C331FA92403B26300AB0837 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				0C331FAA2403B29200AB0837 /* NoticePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		0C331FAC2403B3A800AB0837 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				0C331FAD2403B3BF00AB0837 /* NoticeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		0C331FB12403B83E00AB0837 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0C331FAF2403B83700AB0837 /* NoticeViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0C331FB22403BB1F00AB0837 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0C331FB32403BB4200AB0837 /* NoticeCell.swift */,
+				0C331FB42403BB4200AB0837 /* NoticeCell.xib */,
+				0C331FBC2404BEAF00AB0837 /* TableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0C331FB72403BD1100AB0837 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0C331FB82403BD2F00AB0837 /* NoticeRouter.swift */,
+				0C331FBA2403C2AD00AB0837 /* MovieRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		7F7DF0BAABCA052295C381A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7045F0649A441E4CE3A128D1 /* Pods_ViberDemo.framework */,
+				BB0F99D3AACB62DE07E301BC /* Pods_ViberDemo_ViberDemoUITests.framework */,
+				A59F54E9F5848D9C0D20C59D /* Pods_ViberDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9817D0A4DE1A336C3279AEF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E33188EF3F855CC4D403F9F /* Pods-ViberDemo.debug.xcconfig */,
+				04B850DC3427290626D4AFBB /* Pods-ViberDemo.release.xcconfig */,
+				70283FB030C69F507270EEFF /* Pods-ViberDemo-ViberDemoUITests.debug.xcconfig */,
+				2C14BA8D102D84D9C47B2B83 /* Pods-ViberDemo-ViberDemoUITests.release.xcconfig */,
+				C9B3DCFF58398A7462D310CD /* Pods-ViberDemoTests.debug.xcconfig */,
+				DB02EE125907DD9ADA1DB7B8 /* Pods-ViberDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C331F6C2403AE8A00AB0837 /* ViberDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C331F972403AE8E00AB0837 /* Build configuration list for PBXNativeTarget "ViberDemo" */;
+			buildPhases = (
+				96DF3017D29AE24A82FB2C98 /* [CP] Check Pods Manifest.lock */,
+				0C331F692403AE8A00AB0837 /* Sources */,
+				0C331F6A2403AE8A00AB0837 /* Frameworks */,
+				0C331F6B2403AE8A00AB0837 /* Resources */,
+				8A2145BFDF716331969839E0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViberDemo;
+			productName = ViberDemo;
+			productReference = 0C331F6D2403AE8A00AB0837 /* ViberDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C331F822403AE8D00AB0837 /* ViberDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C331F9A2403AE8E00AB0837 /* Build configuration list for PBXNativeTarget "ViberDemoTests" */;
+			buildPhases = (
+				C843C743EE76293FCA378732 /* [CP] Check Pods Manifest.lock */,
+				0C331F7F2403AE8D00AB0837 /* Sources */,
+				0C331F802403AE8D00AB0837 /* Frameworks */,
+				0C331F812403AE8D00AB0837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C331F852403AE8D00AB0837 /* PBXTargetDependency */,
+			);
+			name = ViberDemoTests;
+			productName = ViberDemoTests;
+			productReference = 0C331F832403AE8D00AB0837 /* ViberDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0C331F8D2403AE8E00AB0837 /* ViberDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C331F9D2403AE8E00AB0837 /* Build configuration list for PBXNativeTarget "ViberDemoUITests" */;
+			buildPhases = (
+				E433DD5309CDBF7DB1A993ED /* [CP] Check Pods Manifest.lock */,
+				0C331F8A2403AE8E00AB0837 /* Sources */,
+				0C331F8B2403AE8E00AB0837 /* Frameworks */,
+				0C331F8C2403AE8E00AB0837 /* Resources */,
+				DB8C911569EAEAE602CB228E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C331F902403AE8E00AB0837 /* PBXTargetDependency */,
+			);
+			name = ViberDemoUITests;
+			productName = ViberDemoUITests;
+			productReference = 0C331F8E2403AE8E00AB0837 /* ViberDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C331F652403AE8A00AB0837 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Ominext;
+				TargetAttributes = {
+					0C331F6C2403AE8A00AB0837 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					0C331F822403AE8D00AB0837 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 0C331F6C2403AE8A00AB0837;
+					};
+					0C331F8D2403AE8E00AB0837 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 0C331F6C2403AE8A00AB0837;
+					};
+				};
+			};
+			buildConfigurationList = 0C331F682403AE8A00AB0837 /* Build configuration list for PBXProject "ViberDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C331F642403AE8A00AB0837;
+			productRefGroup = 0C331F6E2403AE8A00AB0837 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C331F6C2403AE8A00AB0837 /* ViberDemo */,
+				0C331F822403AE8D00AB0837 /* ViberDemoTests */,
+				0C331F8D2403AE8E00AB0837 /* ViberDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C331F6B2403AE8A00AB0837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C331F7D2403AE8D00AB0837 /* LaunchScreen.storyboard in Resources */,
+				0C331FB62403BB4200AB0837 /* NoticeCell.xib in Resources */,
+				0C331F7A2403AE8D00AB0837 /* Assets.xcassets in Resources */,
+				0C331F782403AE8A00AB0837 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C331F812403AE8D00AB0837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C331F8C2403AE8E00AB0837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A2145BFDF716331969839E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ViberDemo/Pods-ViberDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ViberDemo/Pods-ViberDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ViberDemo/Pods-ViberDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96DF3017D29AE24A82FB2C98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViberDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C843C743EE76293FCA378732 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViberDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB8C911569EAEAE602CB228E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ViberDemo-ViberDemoUITests/Pods-ViberDemo-ViberDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ViberDemo-ViberDemoUITests/Pods-ViberDemo-ViberDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ViberDemo-ViberDemoUITests/Pods-ViberDemo-ViberDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E433DD5309CDBF7DB1A993ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViberDemo-ViberDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C331F692403AE8A00AB0837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C331FBD2404BEAF00AB0837 /* TableViewCell.swift in Sources */,
+				0C331FAB2403B29200AB0837 /* NoticePresenter.swift in Sources */,
+				0C331FA52403AFFB00AB0837 /* NoticeModel.swift in Sources */,
+				0C331FA82403B1F800AB0837 /* NoticeProtocol.swift in Sources */,
+				0C331F752403AE8A00AB0837 /* ViewController.swift in Sources */,
+				0C331F712403AE8A00AB0837 /* AppDelegate.swift in Sources */,
+				0C331FBB2403C2AD00AB0837 /* MovieRouter.swift in Sources */,
+				0C331F732403AE8A00AB0837 /* SceneDelegate.swift in Sources */,
+				0C331FAE2403B3BF00AB0837 /* NoticeInteractor.swift in Sources */,
+				0C331FB02403B83700AB0837 /* NoticeViewController.swift in Sources */,
+				0C331FA22403AF9B00AB0837 /* AppConstants.swift in Sources */,
+				0C331FB92403BD2F00AB0837 /* NoticeRouter.swift in Sources */,
+				0C331FB52403BB4200AB0837 /* NoticeCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C331F7F2403AE8D00AB0837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C331F882403AE8D00AB0837 /* ViberDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C331F8A2403AE8E00AB0837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C331F932403AE8E00AB0837 /* ViberDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C331F852403AE8D00AB0837 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C331F6C2403AE8A00AB0837 /* ViberDemo */;
+			targetProxy = 0C331F842403AE8D00AB0837 /* PBXContainerItemProxy */;
+		};
+		0C331F902403AE8E00AB0837 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C331F6C2403AE8A00AB0837 /* ViberDemo */;
+			targetProxy = 0C331F8F2403AE8E00AB0837 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C331F762403AE8A00AB0837 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C331F772403AE8A00AB0837 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C331F7B2403AE8D00AB0837 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C331F7C2403AE8D00AB0837 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C331F952403AE8E00AB0837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0C331F962403AE8E00AB0837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C331F982403AE8E00AB0837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E33188EF3F855CC4D403F9F /* Pods-ViberDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46W25C8KDG;
+				INFOPLIST_FILE = ViberDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ominext.ViberDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C331F992403AE8E00AB0837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04B850DC3427290626D4AFBB /* Pods-ViberDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46W25C8KDG;
+				INFOPLIST_FILE = ViberDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ominext.ViberDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0C331F9B2403AE8E00AB0837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9B3DCFF58398A7462D310CD /* Pods-ViberDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46W25C8KDG;
+				INFOPLIST_FILE = ViberDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ominext.ViberDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViberDemo.app/ViberDemo";
+			};
+			name = Debug;
+		};
+		0C331F9C2403AE8E00AB0837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB02EE125907DD9ADA1DB7B8 /* Pods-ViberDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46W25C8KDG;
+				INFOPLIST_FILE = ViberDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ominext.ViberDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViberDemo.app/ViberDemo";
+			};
+			name = Release;
+		};
+		0C331F9E2403AE8E00AB0837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70283FB030C69F507270EEFF /* Pods-ViberDemo-ViberDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46W25C8KDG;
+				INFOPLIST_FILE = ViberDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ominext.ViberDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ViberDemo;
+			};
+			name = Debug;
+		};
+		0C331F9F2403AE8E00AB0837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C14BA8D102D84D9C47B2B83 /* Pods-ViberDemo-ViberDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46W25C8KDG;
+				INFOPLIST_FILE = ViberDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ominext.ViberDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ViberDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C331F682403AE8A00AB0837 /* Build configuration list for PBXProject "ViberDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C331F952403AE8E00AB0837 /* Debug */,
+				0C331F962403AE8E00AB0837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C331F972403AE8E00AB0837 /* Build configuration list for PBXNativeTarget "ViberDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C331F982403AE8E00AB0837 /* Debug */,
+				0C331F992403AE8E00AB0837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C331F9A2403AE8E00AB0837 /* Build configuration list for PBXNativeTarget "ViberDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C331F9B2403AE8E00AB0837 /* Debug */,
+				0C331F9C2403AE8E00AB0837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C331F9D2403AE8E00AB0837 /* Build configuration list for PBXNativeTarget "ViberDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C331F9E2403AE8E00AB0837 /* Debug */,
+				0C331F9F2403AE8E00AB0837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C331F652403AE8A00AB0837 /* Project object */;
+}

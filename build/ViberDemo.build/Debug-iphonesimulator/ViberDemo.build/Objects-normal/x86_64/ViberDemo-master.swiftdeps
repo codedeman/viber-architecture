@@ -1,0 +1,17 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "bff51514706a6c6213b56eab61cec456"
+build_time: [1582614050, 777737000]
+inputs:
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/ViberDemo/Cell/TableViewCell.swift": [1582598255, 974149806]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/ViberDemo/Presenter/NoticePresenter.swift": [1582540808, 561581683]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/ViberDemo/Models/NoticeModel.swift": [1582529145, 569017891]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/ViberDemo/Protocols/NoticeProtocol.swift": [1582605534, 359982762]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/ViberDemo/ViewController.swift": [1582528266, 163630215]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/ViberDemo/AppDelegate.swift": [1582612237, 851170863]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/ViberDemo/Router/MovieRouter.swift": [1582534065, 754032446]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/ViberDemo/SceneDelegate.swift": [1582612110, 391954053]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/ViberDemo/Interactor/NoticeInteractor.swift": [1582605333, 770243295]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/ViberDemo/Views/NoticeViewController.swift": [1582614049, 901047393]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/ViberDemo/Constant/AppConstants.swift": [1582528635, 840883423]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/ViberDemo/Router/NoticeRouter.swift": [1582603004, 453880919]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/ViberDemo/Cell/NoticeCell.swift": [1582537297, 935807533]

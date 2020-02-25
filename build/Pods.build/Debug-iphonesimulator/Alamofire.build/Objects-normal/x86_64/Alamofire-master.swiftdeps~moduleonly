@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "fc1b9ddb90820fddce5c5a885e241600"
+build_time: [1582597938, 267530000]
+inputs:
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/Pods/Alamofire/Source/AFError.swift": [1582530110, 439907616]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/Pods/Alamofire/Source/Alamofire.swift": [1582530110, 442738046]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1582530110, 434898626]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/Pods/Alamofire/Source/MultipartFormData.swift": [1582530110, 432979670]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1582530110, 433686922]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/Pods/Alamofire/Source/Notifications.swift": [1582530110, 441128633]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/Pods/Alamofire/Source/ParameterEncoding.swift": [1582530110, 438507155]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/Pods/Alamofire/Source/Request.swift": [1582530110, 443284401]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/Pods/Alamofire/Source/Response.swift": [1582530110, 442174315]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/Pods/Alamofire/Source/ResponseSerialization.swift": [1582530110, 446605230]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/Pods/Alamofire/Source/Result.swift": [1582530110, 435502664]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1582530110, 447289798]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/Pods/Alamofire/Source/SessionDelegate.swift": [1582530110, 447950957]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/Pods/Alamofire/Source/SessionManager.swift": [1582530110, 443996251]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/Pods/Alamofire/Source/TaskDelegate.swift": [1582530110, 431930844]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/Pods/Alamofire/Source/Timeline.swift": [1582530110, 434325490]
+  "/Users/macosx/Desktop/IOS-OBJ/ViberDemo/Pods/Alamofire/Source/Validation.swift": [1582530110, 440399810]

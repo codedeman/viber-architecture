@@ -1,0 +1,6 @@
+framework module Pods_ViberDemo_ViberDemoUITests {
+  umbrella header "Pods-ViberDemo-ViberDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
